@@ -1,0 +1,231 @@
+html{
+    background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5)), url(../media/background.png);
+    background-size: cover;
+}
+
+body{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 2.3em;
+    margin: 0;
+    margin-left: 6em;
+}
+
+#header{
+    vertical-align: middle;
+}
+
+#gameTable{
+    width: 50%;
+    height: auto;
+    padding: 0.7em;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: auto;
+}
+
+#gameTable td{
+    border: 2px solid transparent;
+}
+
+#tableSpan{
+    width: 50%;
+    height: max-content;
+    margin: 0.8em;
+    padding: 0;
+}
+
+.empty{
+    background-color: rgb(247, 228, 180);
+    border-radius: 3px;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+.mountain{
+    background-image: url('../media/mountain.jpg');
+    background-size: cover;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+.town{
+    background-image: url('../media/village.jpg');
+    background-size: cover;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+.water{
+    background-image: url('../media/water.jpg');
+    background-size: cover;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+.farm{
+    background-image: url('../media/wheat.jpg');
+    background-size: cover;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+.forest{
+    background-image: url('../media/forest.jpg');
+    background-size: cover;
+    padding: 1.1em;
+    margin: 1.5em;
+}
+
+span{
+    text-align: center;
+    padding: 0.3em;
+    margin: auto;
+    border-radius: 10px;
+    display:inline-block;
+}
+
+#score{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 6em;
+}
+
+#springData{
+    background-color: rgb(243, 159, 222);
+    border: 3px solid rgb(209, 50, 169);
+    padding: 0.5em;
+}
+
+#summerData{
+    background-color: rgb(247, 247, 177);
+    border: 3px solid rgb(202, 202, 48);
+    padding: 0.5em;
+}
+
+#autumnData{
+    background-color: rgb(255, 211, 130);
+    border: 3px solid rgb(216, 148, 20);
+    padding: 0.5em; 
+}
+
+#winterData{
+    background-color: rgb(141, 184, 240);
+    border: 3px solid rgb(24, 110, 222);
+    padding: 0.5em;
+}
+
+#allData{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#tableSpan{
+    float:left;
+    margin: 0;
+    margin-top: 3em;
+    padding: 0;
+}
+
+#gameData{
+    text-align: left;
+    font-size: 1.3em;
+    width: 40%;
+    padding: 0;
+}
+
+hr{
+    height: 2px;
+    border: none;
+    background-color: #000;
+    margin: 0.2em;
+    width:auto;
+}
+
+button {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  line-height: 1.5em;
+  margin: 0;
+padding: 0.5em;
+font-size: 0.7em;
+}
+
+button:hover {
+  background-color: #000;
+  color:rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.19);
+}
+
+#buttons{
+    margin: 0.5em;
+}
+
+#elementTable{
+    margin: 0;
+    padding: 0.3em;
+    background-color: rgba(255, 255, 255, 0.85);
+    display:block;
+    font-size: 0.8em;
+}
+
+#elementSpan
+{
+    background-color: lightgray;
+    float: right;
+    margin: 0;
+    margin-right: 7em;
+    padding: 0.3em;
+    border-radius: 10px;
+    height: 8.5em;
+    width: auto;
+}
+
+#elementSpan p{
+    margin: 0;
+    margin-top: 0.2em;
+    padding: 0;
+    text-align: center;
+}
+
+#elementTable:hover{
+    cursor: grab;
+}
+
+#c1, #c2, #c3, #c4{
+    font-size: 0.8em;
+    margin: 0.4em;
+    padding: 0.4em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(36, 41, 48);
+    width: 40%;
+    height: 30%;
+    display: inline-block;
+}
+
+#c1 p, #c2 p, #c3 p, #c4 p{
+    margin: 0;
+    padding: 0;
+    text-align:left;
+    font-size: 0.6em;
+}
+
+.active{
+    border: 3px solid rgb(21, 214, 21);
+}

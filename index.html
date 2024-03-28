@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A térképész</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="media/icon.png" type="image/png">
+</head>
+<body>
+    <div id="header">
+        <span><h1>Burgonya térkép</h1></span>
+        <span id="score">
+            <span id="springData" class="seasonCard"></span>
+            <span id="summerData" class="seasonCard"></span>
+            <span id="autumnData" class="seasonCard"></span>
+            <span id="winterData" class="seasonCard"></span><br>
+            <span id="allData" class="seasonCard"></span>
+        </span>
+    </div>
+    <div id="gameField">
+        <span id="tableSpan">
+            <table id="gameTable"></table>
+        </span>
+        <span id="gameData">
+            Jelenlegi évszak:<span id="season"></span><br>
+            <hr>
+            <span id="c1"></span><span id="c2"></span>
+            <br>
+            <span id="c3"></span><span id="c4"></span>
+            <br>
+            Évszakból hátralévő idő:<span id="time"></span><br>
+            <hr>
+            Lehelyezendő elem:<span id="elementSpan"><table id="elementTable" draggable="true"><p id="p"><img id="img"></p></table></span><br>
+            <span id="buttons">
+                <button id="rotate">Forgatás</button><br>
+                <button id="mirror">Tükrözés</button>
+            </span>
+        </span>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
